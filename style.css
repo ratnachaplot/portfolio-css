@@ -1,3 +1,4 @@
+
 /* ---------- RESET & BASE ---------- */
 * {
     margin: 0;
@@ -146,6 +147,45 @@ a:hover {
     text-decoration: underline;
 }
 
+/* add style for education */
+#education ul {
+    list-style: none;
+    padding-left: 0;
+}
+#education li {
+    margin-bottom: 15px;
+    padding-left: 10px;
+    border-left: 3px solid #667eea;
+}
+#education li h4 {
+    margin-bottom: 5px;
+    color: #667eea;
+}
+#education li p {
+    margin: 0;
+    color: #555;
+}
+
+/* add style for experience */
+#experience ul {
+    list-style: none;
+    padding-left: 0;
+}
+#experience li {
+    margin-bottom: 15px;
+    padding-left: 10px;
+    border-left: 3px solid #667eea;
+}
+#experience li h4 {
+    margin-bottom: 5px;
+    color: #667eea;
+}
+#experience li p {
+    margin: 0;
+    color: #555;
+}
+
+
 /* ---------- CONTACT FORM ---------- */
 form {
     display: flex;
@@ -191,6 +231,30 @@ button {
 button:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 15px rgba(102, 126, 234, 0.4);
+}
+
+/* add style for social links */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+    transform: translateY(-3px);
 }
 
 /* ---------- FOOTER ---------- */
